@@ -1,0 +1,35 @@
+body {
+    background-color: gray;
+}
+
+.menu__link {
+    color: white;
+    display: block;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    position: relative;
+    margin: 0 40px;
+    will-change: transform;
+
+    overflow: hidden;
+}
+.hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: #fff;
+    will-change: transform;
+}
+.hover__text {
+    color: gray;
+    padding: 20px 30px;
+    display: block;
+    will-change: transform;
+
+    overflow: hidden;
+}
