@@ -1,5 +1,6 @@
 body {
-    background-color: gray;
+    background-color: rgb(26, 26, 26);
+    padding: 40px;
 }
 
 .menu__link {
@@ -24,12 +25,12 @@ body {
     z-index: 2;
     background-color: #fff;
     will-change: transform;
+
+    overflow: hidden;
 }
 .hover__text {
     color: gray;
     padding: 20px 30px;
     display: block;
     will-change: transform;
-
-    overflow: hidden;
 }
